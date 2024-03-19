@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manisha - Devekoper portfolio</title>
+    <title>Manisha's portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<script src="script.js"></script>
 <body>
 
-    <header>
+    <header id="header">
         <nav>
             <div class="left"> Manisha's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Skills</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="#Home"id="home" class="active">Home</a></li>
+                    <li><a href="#Projects" id="projects">Projects</a></li>
+                    <li><a href="#Skills"id="skills">Skills</a></li>
+
+                    <li><a href="#footer"id="contact">Contact Me</a></li>
 
                 </ul>
             </div>
@@ -26,126 +28,135 @@
 
     <main>
 
-        <section class="firstsection">
+        <section id="Home" class="firstsection">
             <div class="leftsection">
                 Hi, My name is<span class="color"> Manisha</span>
                 <div>and I am a passionate </div>
                 <span id="element"></span>
             </div>
             <div class="rightsection">
-                <img src="pl.png">
+                <img src="img.jpg">
             </div>
         </section>
 
         <hr>
 
-        <section class="secondsection">
+        <section id="Projects" class="secondsection">
+            <br><br><br><br><br>
+
             <span class="textgray">What I have done so far</span>
             <h1>My Projects</h1>
             <div class="horizontal">
                 <div class="vertical">
-                    <img class="user-img" src="professional-portfolio.png" alt="img">
+                    <!-- <img class="user-img" src="professional-portfolio.png" alt="img"> -->
                     <div class="vertical-tittle">
-                        My Portfolio
+                        <a href="https://manishasharma2.github.io/portfolio/" target="_blank" style="color: white;">My Portfolio </a>
                     </div>
-                    <div class="virtical-discription">This is my portfolio that consists of all my projects, my skills and it also inculde my contact information.</div>
+                    <div class="virtical-discription">This is my portfolio that consists of information about my projects, my skills and it also inculde my contact information.</div>
                 </div>
                 <div class="vertical">
-                    <img class="user-img" src="pngwing.com.png" alt="img">
+                    <!-- <img class="user-img" src="pngwing.com.png" alt="img"> -->
                     <div class="vertical-tittle">
-                        Rock Paper and Scissors
+                        <a href="https://github.com/manishasharma2/tct.git" style="color: white;" target="blank">Tic Tac Toe</a>
                     </div>
-                    <div class="virtical-discription">This is a game that is designed by me it is designed using python programming language. This game works on a python interpreter.</div>
+                    <div class="virtical-discription">This project is a web-based implementation of the classic Tic-Tac-Toe game using React.js, a popular
+                        JavaScript library for building user interfaces</div>
                 </div>
 
                 <div class="vertical">
-                    <img class="user-img" src="pngwing.com.png" alt="img">
+                    <!-- <img class="user-img" src="pngwing.com.png" alt="img"> -->
                     <div class="vertical-tittle">
-                        Quiz Game
+                        
+                        <a href="https://github.com/manishasharma2/wechat.git"style="color: white;" target="_blank">WE-Chat</a>
                     </div>
-                    <div class="virtical-discription">This is also a game designed by me in python language. This is a simple quiz game and displays multiple choice answer to the user to choose the correct one and it also works on interpreter.</div>
+                    <div class="virtical-discription">This project presents a real-time chat application designed to facilitate communication among multiple users
+                        over the internet. Built upon the Socket.io library.</div>
                 </div>
                 <div class="vertical">
-                    <img class="user-img" src="calculator.png" alt="img">
+                    <!-- <img class="user-img" src="calculator.png" alt="img"> -->
                     <div class="vertical-tittle">
-                        Calcualtor
+                        <u>VC 2.0</u>
                     </div>
-                    <div class="virtical-discription">I had made calculator available to the user in two versions it is available in command line interface using pyhton and also available in graphic user interface using basic html, css and java script.</div>
+                    <div class="virtical-discription">Advanced version of video conferencing application which tries to enhance the experience in video
+                        conferences by imitating real world sound in the virtual world.In this I had played the role of UI desinger and frontend Developer</div>
                 </div>
                 <div class="vertical">
-                    <img class="user-img" src="pngwing.com (1).png" alt="img">
+                    <!-- <img class="user-img" src="pngwing.com (1).png" alt="img"> -->
                     <div class="vertical-tittle">
-                        Temperature Converter
+                         <a href="https://manishasharma2.github.io/Temperature_Converter/" style="color: white;"target="blank">Temperature Converter</a>
                     </div>
-                    <div class="virtical-discription">This is a application available in a web page that is used to convert temperature in its various equivalent values. It is designed using basic html, css and java script.</div>
+                    <div class="virtical-discription">This project is a web-based temperature converter designed to facilitate the conversion of temperature values
+                        between Fahrenheit and Celsius scales. Implemented using HTML, CSS, and JavaScript. </div>
                 </div>
                 
             </div>
         </section>
 
-        <hr>
-        <section class="secondsection">
+    <hr>
+        <section  id="Skills" class="secondsection">
+            <br><br><br><br>
+
             <span class="textgray">The things I am good in</span>
             <h1>My skills</h1>
             <div class="horizontal">
                 <div class="vertical">
-                    <img class="user-img" src="" alt="img">
+                    <!-- <img class="user-img" src="" alt="img"> -->
                     <div class="vertical-tittle">
-                        Python programming
+                        Programming
                     </div>
-                    <div class="virtical-discription">Pyhton is a high level programming language. It is also used in backend designing of any web page. I have made many projects in Python and I also works as a intern at CodeSoft as a Python Programmer.</div>
+                    <div class="virtical-discription">Possesses knowledge in various programming languages including C/C++, Java, Python, HTML,
+                        CSS, and JavaScript.</div>
                 </div>
                 <div class="vertical">
-                    <img class="user-img" src="" alt="img">
+                    <!-- <img class="user-img" src="" alt="img"> -->
                     <div class="vertical-tittle">
                         Web developement
                     </div>
-                    <div class="virtical-discription">Web developement has main two types frontend and backend. I am a frontend web developer at Bharat Interns and CodeSoft.</div>
+                    <div class="virtical-discription">I have created many web based projects that showcases my knowledge in this field.</div>
                 </div>
 
                 <div class="vertical">
-                    <img class="user-img" src="" alt="img">
+                    <!-- <img class="user-img" src="" alt="img"> -->
                     <div class="vertical-tittle">
-                        Communication
+                        UI Desingning 
                     </div>
-                    <div class="virtical-discription">I had gain good command on my Communication skills while working as campus ambassodor at IEEE and as a face of Internshala student program.</div>
+                    <div class="virtical-discription">I Exhibits a keen interest in UI design and web development, striving to create visually
+                        appealing and user-friendly interfaces. </div>
                 </div>
                 <div class="vertical">
-                    <img class="user-img" src="" alt="img">
+                    <!-- <img class="user-img" src="" alt="img"> -->
                     <div class="vertical-tittle">
                         Problem Solving
                     </div>
-                    <div class="virtical-discription">Problem Solving is one of the to get solution of any problem in life and I am glad to have this amzing skill.</div>
+                    <div class="virtical-discription">My Problem solving skill always helps me to think out of the box and to get effective solution of any problem.</div>
                 </div>
                 <div class="vertical">
-                    <img class="user-img" src="" alt="img">
+                    <!-- <img class="user-img" src="" alt="img"> -->
                     <div class="vertical-tittle">
-                        Time Management
+                        communication
                     </div>
-                    <div class="virtical-discription">I am a rank holder in my institution and I am also did some internships just with my time management skill.</div>
+                    <div class="virtical-discription">communication is one of the best way to express your idea among other and I am good in it.</div>
                 </div>
                 
             </div>
         </section>
 
     </main>
+    <hr>
     <footer>
-        <div class="footer">
-            <div class="footer-first">Contact Me</div>
-            <div>
-                <ul>
-                    <li>LinkedIn</li>
-                    <li>Gmail</li>
-                    <li>github</li>
-                </ul>
-            </div>
+        <div class="footer" id="footer">
+            
+            <div class="footer-first">Contact Me :</div>
+           
             <div class="footer-third">
-                <ul>
-                    <li><a href="">linkein/manishasharma2003</a></li>
-                    <li><a href="">manisha.sharma2021@gmail.com</a></li>
-                    <li><a href=""></a>manishasharma2.git.com</li>
+            
+                    <a href="mailto:manishasharma192003@gmail.com" target="_blank"><img src="email.png" alt="email"></a>
+                    <a href="https://www.linkedin.com/in/manisha-sharma2004/" target="_blank"><img src="linked.png" alt="linkedin"></a>
+                    <a href="https://github.com/manishasharma2" target="_blank"><img src="git.png" alt="github"></a>
+                    <a href="https://leetcode.com/Manisha2224/"target="blank"><img src="leetcode.png" alt="leetcode"></a>
+                    <a href="https://www.hackerrank.com/profile/manisha_sharma25" target="blank"><img src="hacker.png" alt="hackerrank"></a>
 
-                </ul>
+                
             </div>
            
         </div>
@@ -154,7 +165,7 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer.','Python programmer.','Video Editor.'],
+          strings: ['Web Developer.','Programmer.','UI Designer.'],
           typeSpeed: 50,
         });
       </script>

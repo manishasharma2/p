@@ -3,13 +3,25 @@
     padding: 0;
 }
 Body{
-    background: linear-gradient(135deg,#153677,#4e085f);
-
+    /* background: linear-gradient(135deg,#135ae7,#4e085f); */
+    /* background: linear-gradient(135deg,#18294a,#165777); */
+    background-color: rgb(0, 0, 33);
     color: white;
 }
+#header {
+
+    /* background-color: #333; */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
 nav{
-    background-color: rgba(1, 1, 23, 0.696);
+    background-color: rgb(18,18, 32);
+
+    /* background-color: rgba(1, 1, 23, 0.696); */
     display: flex;
+    height: 50px;
     justify-content: space-around;
     align-items: center;
     padding: 5px;
@@ -32,14 +44,14 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: violet;
-    font-size: 1.04rem;
+    font-size: 1.54rem;
 }
 
 .firstsection{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 90px 0;
+    margin: 100px 0;
 }
 .firstsection > div{
     width: 32%;
@@ -50,15 +62,21 @@ nav ul li a:hover{
 }
 .rightsection img{
     background: transparent;
-    width: 88%;
-    margin: 50px 0;
+    height: 350px;
+    margin: 80px 0;
+    margin-left: 200px;
+    border: solid 5px white ;
 
 }
+.rightsection img:hover{
+    height: 400px;
+    border: 7px solid violet;
+}
 .color{
-    color: purple;
+    color: rgb(236, 145, 236);
 }
 #element{
-    color: purple;
+    color: rgb(250, 146, 250);
 }
 .secondsection {
     margin: auto;
@@ -94,25 +112,25 @@ hr{
 
 
 .secondsection .vertical{
-    height: 93px;
+    height: 73px;
     width: 1px;
     background-color: white;
     margin: 0 120px;
     
-}
-
-.user-img{
-    width: 50px;
-    position: relative;
-    top: -50px;
-    left: -25px;
 }
 .vertical-tittle{
     position: relative;
     top:75px;
     width: 150px;
     font-size: 25px;
-
+}
+.vertical-tittle:hover{
+    font-size: 36px;
+    width: 180px;
+    color: violet;
+}
+.vertical-tittle a:hover{
+    color: violet;
 }
 
 .virtical-discription
@@ -123,7 +141,10 @@ hr{
     width: 150px;
     font-size: 15px;
 }
-
+.virtical-discription:hover{
+    width: 170px;
+    font-size: 17px;
+}
 
 .flex{
     display: flex;
@@ -139,8 +160,9 @@ hr{
     justify-content: space-around;
 }
 footer{
-    background-color: rgba(1, 1, 23, 0.542);
-    height: 123px;
+    /* background-color: rgba(1, 1, 23, 0.542); */
+    background-color: rgb(18,18, 32);
+    height: 150px;
     font-size: 20px;
     margin: 20px 0;
 }
@@ -158,4 +180,18 @@ footer{
 .footer-third ul li a{
     text-decoration: none;
     color: white;
+}
+
+.footer-third img{
+    height:45px;
+    width: 45px;
+    margin: 10px;
+    /* padding: 10px; */
+    justify-content: center;
+    display: inline-block;
+}
+.footer-third img:hover{
+    height: 55px;
+    width: 55px;
+    border: 2px solid purple;
 }
